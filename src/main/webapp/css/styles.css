@@ -1,0 +1,77 @@
+/* Arquivo styles.css */
+
+/* Define o estilo para o corpo da página */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #006cbc; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garantir que a página ocupe toda a altura da tela */
+    margin: 0;
+}
+
+/* Caixa centralizada para o formulário de login */
+.login-box {
+    width: 80%;
+    height: 70vh;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.96);
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+/* Estilo para o título */
+h2 {
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #1e9fff;
+}
+
+label {
+    font-size: 1.2em;
+    color: #1e9fff;
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 1.1em;
+    border: none; /* Borda suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    background-color: #1e9fff; /* Cor verde para o botão */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #006cbc;
+}
+
+label {
+    color: #1e9fff;
+}
+
+/* Estilo para a mensagem de erro */
+p {
+    text-align: center;
+    color: red;
+}}
